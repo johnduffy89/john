@@ -38,9 +38,15 @@ else: x = y - x
 mylist = [1, 3, 8, 412, 43, 2, 20]
 len(mylist)
 
+x = 0
+while(x<5):
+        x +=1
+        print("x = " + str(x))
+x+=1
+print("x+= " + str(x))
 
-for i in range(len(mylist));
-	print9mylist[i]))
+for i in range(len(mylist)):
+	print(mylist[i])
 
 for val in mylist
 	print (val)
